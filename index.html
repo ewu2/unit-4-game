@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cat Collector</title>
+
+	<!--Added link to Reset Style-->
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+
+	<!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Added link to CSS Style-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	
+<div class="jumbotron text-center">
+    <h1 class="display-3">Cat Collector</h1>
+    <p class="lead">A purr-fect game with endless paw-sibilities. Play right meow!</p>
+    <cite title="Source Title">(Win by matching your total score to the target score, you lose if you go over. The cats below won't tell you how much they're worth until you pet them. And worse, their values change every round. Just try it out, I swear I'm not kitten. Good luck, my fur-end.)</cite>
+    <br><br>
+    <div class="row">
+        <div class="col-md-4">
+            <p class="lead">Target Score:</p>
+            <h2 class="display-3 target-number"></h2>
+        </div>
+        <div class="col-md-4">
+            <br><br>
+            <p class="lead win-lose-counter"></p>
+        </div>
+        <div class="col-md-4">
+            <p class="lead">Total Score:</p>
+            <h2 class="display-3 score-number"></h2>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="row">
+                <div class="col cat-images">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br><br>
+
+	<!-- Added link to Javascript-->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    
+</body>
+</html>

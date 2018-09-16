@@ -1,0 +1,13 @@
+body {
+	/* background-image: url("../images/seigaiha.png"); */
+	background-color: #FBEFE3;
+	margin: 0px;
+	padding: 0px;
+}
+
+.jumbotron {
+	padding: 25px;
+	background-color: rgb(104, 95, 88);
+	/* background-color: #B8A99B; */
+	color: whitesmoke;
+}
